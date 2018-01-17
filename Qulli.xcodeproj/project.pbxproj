@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81C2F3FA200F23A700767044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C2F3F9200F23A700767044 /* AppDelegate.swift */; };
+		81C2F3FC200F23A700767044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C2F3FB200F23A700767044 /* ViewController.swift */; };
+		81C2F3FF200F23A700767044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C2F3FD200F23A700767044 /* Main.storyboard */; };
+		81C2F402200F23A700767044 /* Qulli.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81C2F400200F23A700767044 /* Qulli.xcdatamodeld */; };
+		81C2F404200F23A700767044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C2F403200F23A700767044 /* Assets.xcassets */; };
+		81C2F407200F23A700767044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C2F405200F23A700767044 /* LaunchScreen.storyboard */; };
+		81C2F412200F23A700767044 /* QulliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C2F411200F23A700767044 /* QulliTests.swift */; };
+		81C2F41D200F23A700767044 /* QulliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C2F41C200F23A700767044 /* QulliUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81C2F40E200F23A700767044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C2F3EE200F23A700767044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C2F3F5200F23A700767044;
+			remoteInfo = Qulli;
+		};
+		81C2F419200F23A700767044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C2F3EE200F23A700767044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C2F3F5200F23A700767044;
+			remoteInfo = Qulli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81C2F3F6200F23A700767044 /* Qulli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qulli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C2F3F9200F23A700767044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81C2F3FB200F23A700767044 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81C2F3FE200F23A700767044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81C2F401200F23A700767044 /* Qulli.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Qulli.xcdatamodel; sourceTree = "<group>"; };
+		81C2F403200F23A700767044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81C2F406200F23A700767044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81C2F408200F23A700767044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C2F40D200F23A700767044 /* QulliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QulliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C2F411200F23A700767044 /* QulliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QulliTests.swift; sourceTree = "<group>"; };
+		81C2F413200F23A700767044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C2F418200F23A700767044 /* QulliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QulliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C2F41C200F23A700767044 /* QulliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QulliUITests.swift; sourceTree = "<group>"; };
+		81C2F41E200F23A700767044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C2F3F3200F23A700767044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F40A200F23A700767044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F415200F23A700767044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81C2F3ED200F23A700767044 = {
+			isa = PBXGroup;
+			children = (
+				81C2F3F8200F23A700767044 /* Qulli */,
+				81C2F410200F23A700767044 /* QulliTests */,
+				81C2F41B200F23A700767044 /* QulliUITests */,
+				81C2F3F7200F23A700767044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81C2F3F7200F23A700767044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C2F3F6200F23A700767044 /* Qulli.app */,
+				81C2F40D200F23A700767044 /* QulliTests.xctest */,
+				81C2F418200F23A700767044 /* QulliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C2F3F8200F23A700767044 /* Qulli */ = {
+			isa = PBXGroup;
+			children = (
+				81C2F3F9200F23A700767044 /* AppDelegate.swift */,
+				81C2F3FB200F23A700767044 /* ViewController.swift */,
+				81C2F3FD200F23A700767044 /* Main.storyboard */,
+				81C2F403200F23A700767044 /* Assets.xcassets */,
+				81C2F405200F23A700767044 /* LaunchScreen.storyboard */,
+				81C2F408200F23A700767044 /* Info.plist */,
+				81C2F400200F23A700767044 /* Qulli.xcdatamodeld */,
+			);
+			path = Qulli;
+			sourceTree = "<group>";
+		};
+		81C2F410200F23A700767044 /* QulliTests */ = {
+			isa = PBXGroup;
+			children = (
+				81C2F411200F23A700767044 /* QulliTests.swift */,
+				81C2F413200F23A700767044 /* Info.plist */,
+			);
+			path = QulliTests;
+			sourceTree = "<group>";
+		};
+		81C2F41B200F23A700767044 /* QulliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81C2F41C200F23A700767044 /* QulliUITests.swift */,
+				81C2F41E200F23A700767044 /* Info.plist */,
+			);
+			path = QulliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C2F3F5200F23A700767044 /* Qulli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C2F421200F23A700767044 /* Build configuration list for PBXNativeTarget "Qulli" */;
+			buildPhases = (
+				81C2F3F2200F23A700767044 /* Sources */,
+				81C2F3F3200F23A700767044 /* Frameworks */,
+				81C2F3F4200F23A700767044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qulli;
+			productName = Qulli;
+			productReference = 81C2F3F6200F23A700767044 /* Qulli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81C2F40C200F23A700767044 /* QulliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C2F424200F23A700767044 /* Build configuration list for PBXNativeTarget "QulliTests" */;
+			buildPhases = (
+				81C2F409200F23A700767044 /* Sources */,
+				81C2F40A200F23A700767044 /* Frameworks */,
+				81C2F40B200F23A700767044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C2F40F200F23A700767044 /* PBXTargetDependency */,
+			);
+			name = QulliTests;
+			productName = QulliTests;
+			productReference = 81C2F40D200F23A700767044 /* QulliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81C2F417200F23A700767044 /* QulliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C2F427200F23A700767044 /* Build configuration list for PBXNativeTarget "QulliUITests" */;
+			buildPhases = (
+				81C2F414200F23A700767044 /* Sources */,
+				81C2F415200F23A700767044 /* Frameworks */,
+				81C2F416200F23A700767044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C2F41A200F23A700767044 /* PBXTargetDependency */,
+			);
+			name = QulliUITests;
+			productName = QulliUITests;
+			productReference = 81C2F418200F23A700767044 /* QulliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C2F3EE200F23A700767044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Kamal rastogi";
+				TargetAttributes = {
+					81C2F3F5200F23A700767044 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					81C2F40C200F23A700767044 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81C2F3F5200F23A700767044;
+					};
+					81C2F417200F23A700767044 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81C2F3F5200F23A700767044;
+					};
+				};
+			};
+			buildConfigurationList = 81C2F3F1200F23A700767044 /* Build configuration list for PBXProject "Qulli" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81C2F3ED200F23A700767044;
+			productRefGroup = 81C2F3F7200F23A700767044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C2F3F5200F23A700767044 /* Qulli */,
+				81C2F40C200F23A700767044 /* QulliTests */,
+				81C2F417200F23A700767044 /* QulliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C2F3F4200F23A700767044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C2F407200F23A700767044 /* LaunchScreen.storyboard in Resources */,
+				81C2F404200F23A700767044 /* Assets.xcassets in Resources */,
+				81C2F3FF200F23A700767044 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F40B200F23A700767044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F416200F23A700767044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C2F3F2200F23A700767044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C2F402200F23A700767044 /* Qulli.xcdatamodeld in Sources */,
+				81C2F3FC200F23A700767044 /* ViewController.swift in Sources */,
+				81C2F3FA200F23A700767044 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F409200F23A700767044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C2F412200F23A700767044 /* QulliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F414200F23A700767044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C2F41D200F23A700767044 /* QulliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81C2F40F200F23A700767044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C2F3F5200F23A700767044 /* Qulli */;
+			targetProxy = 81C2F40E200F23A700767044 /* PBXContainerItemProxy */;
+		};
+		81C2F41A200F23A700767044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C2F3F5200F23A700767044 /* Qulli */;
+			targetProxy = 81C2F419200F23A700767044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81C2F3FD200F23A700767044 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C2F3FE200F23A700767044 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81C2F405200F23A700767044 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C2F406200F23A700767044 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81C2F41F200F23A700767044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81C2F420200F23A700767044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C2F422200F23A700767044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				INFOPLIST_FILE = Qulli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shikha-Sharma.Qulli";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81C2F423200F23A700767044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				INFOPLIST_FILE = Qulli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shikha-Sharma.Qulli";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81C2F425200F23A700767044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				INFOPLIST_FILE = QulliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shikha-Sharma.QulliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qulli.app/Qulli";
+			};
+			name = Debug;
+		};
+		81C2F426200F23A700767044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				INFOPLIST_FILE = QulliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shikha-Sharma.QulliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qulli.app/Qulli";
+			};
+			name = Release;
+		};
+		81C2F428200F23A700767044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				INFOPLIST_FILE = QulliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shikha-Sharma.QulliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qulli;
+			};
+			name = Debug;
+		};
+		81C2F429200F23A700767044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				INFOPLIST_FILE = QulliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shikha-Sharma.QulliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qulli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C2F3F1200F23A700767044 /* Build configuration list for PBXProject "Qulli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C2F41F200F23A700767044 /* Debug */,
+				81C2F420200F23A700767044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C2F421200F23A700767044 /* Build configuration list for PBXNativeTarget "Qulli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C2F422200F23A700767044 /* Debug */,
+				81C2F423200F23A700767044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C2F424200F23A700767044 /* Build configuration list for PBXNativeTarget "QulliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C2F425200F23A700767044 /* Debug */,
+				81C2F426200F23A700767044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C2F427200F23A700767044 /* Build configuration list for PBXNativeTarget "QulliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C2F428200F23A700767044 /* Debug */,
+				81C2F429200F23A700767044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		81C2F400200F23A700767044 /* Qulli.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				81C2F401200F23A700767044 /* Qulli.xcdatamodel */,
+			);
+			currentVersion = 81C2F401200F23A700767044 /* Qulli.xcdatamodel */;
+			path = Qulli.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 81C2F3EE200F23A700767044 /* Project object */;
+}
