@@ -1,0 +1,6 @@
+framework module Pods_QulliUITests {
+  umbrella header "Pods-QulliUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
